@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mystyle2.css">    
+    <link rel="stylesheet" href="css/rezervacija.css">
+    <title>Travel agencija</title>
+    
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <nav class="main-nav">
+                   
+                <ul>
+                    <img src="img/travell.png" alt="logo" width=80px>
+                    <li><a href="index.html">Naslovna</a></li> 
+                    <li><a href="uponudi.html">U ponudi</a></li>
+                    <li><a href="galerija.html">Galerija</a></li> 
+                    <li><a href="#">Rezerviši</a></li>
+                </ul>
+        </nav>
+        
+                <div class="container">
+                  
+                  
+                    <form id="forma" method="post">
+                      <h1 align="center">POŠALJI MAIL</h1>
+                      <h3 align="center">za sve informacije</h3><br>
+                      <br>
+                      <div>
+                        <label for="name">Lokacija:</label>
+                        <input type="text" id="location" name="location" placeholder="Naziv lokacije">
+                      </div>
+
+                      <div class="form-group" id="destinacijeForma">
+                        <label for="destination">Trenutno u ponudi</label>
+                        <select class="form-control" id="destinacije">
+                          <option>Odaberite</option>
+                          <optgroup label="Evropa">
+                            <option>Lisabon</option>
+                            <option>Madrid</option>
+                            <option>Rim</option>
+                            <option>Pariz</option>
+                            <option>Moskva</option>
+                            <option>Amsterdam</option>
+                          </optgroup>
+                          <optgroup label="Interkontinentalna putovanja">
+                            <option>Tajland</option>
+                            <option>Kuba</option>
+                            <option>Bali</option>
+                            <option>Dubai</option>
+                            <option>Maldivi</option>
+                            <option>Norveska</option>
+                          </optgroup>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label for="mail">E-mail na koji Vam možemo odgovoriti:</label>
+                        <input type="email" id="email" placeholder="@gmail.com" required>
+                      </div>
+                      <div>
+                         <p>
+                        <label for="msg">Pošaljite mail:</label>
+                        <textarea id="subject" name="subject" placeholder="Polje za sva Vaša pitanja, sugestije i rezervacije..." style="height:200px" required></textarea>
+                       <br>
+                       <br>
+                        <form action="">
+                          <input type="radio" name="vrsta" value="male"> Letovanje<br>
+                          <input type="radio" name="vrsta" value="female"> Zimovanje<br>
+                          <input type="radio" name="vrsta" value="other"> Ostalo
+                        </form>
+                        <div class="form-group">
+                          
+                        
+                      </p>
+                       <button type="submit" form="forma" value="Pošalji mail">Pošalji mail</button>
+                      </div>
+                    </form>
+                  
+
+
+     </div>
+
+    <footer>
+        <br>
+
+ <p class="ime">
+  Stojković Ana<br>
+ </p>
+
+  
+ </p>
+
+        <p id="sec">Copyright © Travel agencija</p>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>  
+    <script type="text/javascript" src="js/rezervisi.js"></script>  
+</body>
+</html>

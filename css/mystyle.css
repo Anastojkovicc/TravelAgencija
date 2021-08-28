@@ -1,0 +1,65 @@
+#middle {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-content: center center;
+ }
+
+ .content{
+    background-color: #FFFFF0;
+    text-align: justify;
+    margin:20px 15px;
+    padding:15px 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.content p{
+    margin:15px 25px 15px 25px;
+
+    
+}
+.content h2{
+    text-align: center;
+    font-size: 28px;
+    padding: 5px 15px;
+}
+.content img{
+    border:3px #00BFFF dotted;
+    border-radius: 80px;
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#more, #moreTwo, #moreThree {
+    display: none;
+}
+#png{
+    border:none;
+    width:200px;
+}
+
+button{
+    padding:10px 40px;
+    width:55%;
+    margin-left: 110px;
+    font-family: 'noviFont';
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color:  #F5F5DC;
+    color:rgb(18, 113, 145);
+    border-radius: 2px;
+    border-color: rgba(0, 255, 234, 0.747);;
+    
+}
+
+button:hover{
+    color: rgba(0, 255, 234, 0.747);
+    background-color:whitesmoke;
+    font-size: 20px;
+}
+#myBtnFour{
+    width:30.5%;
+    margin-left: 160px;
+}
